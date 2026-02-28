@@ -1,0 +1,29 @@
+{
+  "name": "paypal-news-reader",
+  "version": "1.0.0",
+  "description": "PayPal 新闻聚合平台 - 每天自动汇总 PayPal 相关新闻",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "paypal",
+    "news",
+    "rss",
+    "aggregator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.0",
+    "firebase-admin": "^12.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.34.5"
+  }
+}

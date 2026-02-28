@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003087"/>
+      <stop offset="100%" style="stop-color:#0055ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景圆角矩形 -->
+  <rect x="30" y="30" width="452" height="452" rx="60" fill="url(#bg)"/>
+
+  <!-- 白色信封主体 -->
+  <rect x="90" y="130" width="332" height="252" rx="16" fill="#ffffff"/>
+
+  <!-- 信封折痕线 -->
+  <path d="M90 230 L256 350 L422 230" stroke="#003087" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- 信封上部 -->
+  <path d="M90 130 L256 230 L422 130" fill="#f0f0f0"/>
+
+  <!-- 中央的 P 字母 -->
+  <text x="256" y="310" font-family="Arial, sans-serif" font-size="160" font-weight="bold" fill="#003087" text-anchor="middle">P</text>
+
+  <!-- RSS 波纹 (右上角) -->
+  <g transform="translate(380, 80)">
+    <circle cx="0" cy="0" r="30" fill="#ff6a00"/>
+    <path d="M-12 -12 Q0 -24 12 -12" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-6 -6 Q0 -12 6 -6" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
